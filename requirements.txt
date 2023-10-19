@@ -1,0 +1,10 @@
+sudo apt update
+sudo apt install python3-pip
+sudo pip install google-api-python-client
+sudo apt install python3.10-venv
+python3 -m venv youtubeETL_venv
+source youtubeETL_venv/bin/activate 
+sudo pip install apache-airflow
+pip install apache-airflow-providers-amazon
+airflow standalone
+
